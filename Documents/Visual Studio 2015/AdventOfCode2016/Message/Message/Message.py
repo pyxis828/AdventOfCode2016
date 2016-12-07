@@ -7,7 +7,7 @@ with open(fn) as f:
     lines = f.readlines()
 for line in lines:
     length = len(line)
-    columns = [ [] for _ in range(length)]
+columns = [ [] for _ in range(length)]
 for line in lines:
     line = line.strip()
     for i in range (length):
